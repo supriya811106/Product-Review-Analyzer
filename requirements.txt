@@ -1,9 +1,7 @@
-numpy
-matplotlib
-seaborn
-scikit-learn
-wordcloud
+Flask
 nltk
-xgboost
+matplotlib
+pandas
+pickle-mixin
 streamlit
-flask
+requests
