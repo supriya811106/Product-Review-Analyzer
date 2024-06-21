@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: feedbackfinder
+    env: python
+    buildCommand: "pip install -r requirements.txt && ./setup.sh"
+    startCommand: "gunicorn app:app --bind 0.0.0.0:5000"
+    envVars:
+      - key: STREAMLIT_SERVER_PORT
+        value: "8501"
+    plan: free
+
+  - type: web
+    name: feedbackfinder-ui
+    env: python
+    buildCommand: "pip install -r requirements.txt && ./setup.sh"
+    startCommand: "streamlit run main.py"
+    envVars:
+      - key: PORT
+        value: "8501"
+    plan: free
