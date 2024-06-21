@@ -66,7 +66,7 @@ with tab1:
     use_lemmatization = st.sidebar.checkbox("Use Lemmatization", value=False)
 
     # Prediction endpoint
-    prediction_endpoint = "http://127.0.0.1:5000/predict"
+    prediction_endpoint = "https://feedbackfinder-api.onrender.com/"
 
     # Prediction button logic
     if st.button("Predict"):
