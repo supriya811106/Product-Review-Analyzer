@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, send_file
 import re
 from io import BytesIO
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
