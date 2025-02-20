@@ -3,6 +3,7 @@
 ![FeedbackFinde](https://github.com/user-attachments/assets/64e7c63b-5a69-49f7-b93d-aacea8ac010b)
 
 FeedbackFinder is a robust tool designed to help you uncover sentiments and opinions within product reviews. Leverage this data to enhance your products and services based on customer feedback.
+[Live Demo](https://feedbackfinder-ui.onrender.com)  
 
 ## Features
 
@@ -40,6 +41,8 @@ FeedbackFinder is a robust tool designed to help you uncover sentiments and opin
     streamlit run app.py
     ```
 2. Open your web browser and navigate to `http://localhost:8501` to access the application.
+
+   Or check out the live version here: [FeedbackFinder Live](https://feedbackfinder-ui.onrender.com)
 
 ## Usage
 
